@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import menu from "../assets/images/menu.png";
-import xicon from "../assets/images/xicon.png";
-import logo from "../assets/images/88.png";
+import xicon from "../assets/images/xicon.jpg";
+import logo from "../assets/images/logo.png";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
@@ -13,43 +13,43 @@ function Navbar() {
 
   return (
     <div>
-      <nav className="bg-gray-600">
+      <nav className="bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
-              <div className="flex-shrink-0">
-                <img className="h-8 w-8" src={logo} alt="Logo" />
+              <div className="flex-shrink-0 ">
+                <img className="h-20 w-20" src={logo} alt="Logo" />
               </div>
             </div>
-            <div className="hidden md:block">
-              <div className="ml-10 flex items-baseline space-x-4">
+            <div className="hidden md:block ">
+              <div className="ml-10 flex   items-baseline space-x-4">
                 <Link
                   to="/"
-                  className="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   Home
                 </Link>
                 <Link
                   to="/about"
-                  className="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   About
                 </Link>
                 <Link
                   to="/services"
-                  className="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   Services
                 </Link>
                 <Link
                   to="/projects"
-                  className="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   Projects
                 </Link>
                 <Link
                   to="/contact"
-                  className="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   Contact
                 </Link>
@@ -62,7 +62,7 @@ function Navbar() {
                   className="text-gray-800 hover:text-gray-600 focus:outline-none"
                   onClick={toggleMenu}
                 >
-                  <img src={xicon} alt="Menu" className="h-6 w-6" />
+                  <img src={xicon} alt="Menu" className="h-5 w-6" />
                 </button>
               ) : (
                 <button
@@ -70,7 +70,7 @@ function Navbar() {
                   className="text-gray-800   focus:outline-none"
                   onClick={toggleMenu}
                 >
-                  <img src={menu} alt="Close" className="h-6 w-6" />
+                  <img src={menu} alt="Close" className="h-8 w-8" />
                 </button>
               )}
             </div>
