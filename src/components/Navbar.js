@@ -13,43 +13,43 @@ function Navbar() {
 
   return (
     <div>
-      <nav className="bg-gray-900">
+      <nav className="bg-[#011813] border-none">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0 ">
-                <img className="h-20 w-20" src={logo} alt="Logo" />
+                <img className="h-20 w-20 " src={logo} alt="Logo" />
               </div>
             </div>
             <div className="hidden md:block ">
               <div className="ml-10 flex   items-baseline space-x-4">
                 <Link
                   to="/"
-                  className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  className="text-white transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-5 px-3 py-2 rounded-md text-sm font-medium"
                 >
                   Home
                 </Link>
                 <Link
                   to="/about"
-                  className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  className="text-white transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-5 px-3 py-2 rounded-md text-sm font-medium"
                 >
                   About
                 </Link>
                 <Link
                   to="/services"
-                  className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  className="text-white transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-5 px-3 py-2 rounded-md text-sm font-medium"
                 >
                   Services
                 </Link>
                 <Link
                   to="/projects"
-                  className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  className="text-white transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-5  hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   Projects
                 </Link>
                 <Link
                   to="/contact"
-                  className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  className="text-white transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-5   px-3 py-2 rounded-md text-sm font-medium"
                 >
                   Contact
                 </Link>

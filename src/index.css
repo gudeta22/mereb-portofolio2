@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.service{
+    background-image: url('../src/assets/images/servicebg.png');
+    background-repeat: no-repeat; 
+    left: 0;
+    right: 0;
+    content: 'cover';
+    height: 570px;
+   
+}
+container{
+    max-width: 1118px ;
+    
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.underworkcom{
+background-image: url('./assets/images/bg-about.jpg');
+right: 0;
+
+content: '';
+background-size: cover;
+background-repeat: no-repeat; 
+
+}
+.overlay{
+    
+        position: absolute;
+        content: "";
+        background-color: rgba(5, 24, 33, 0.902);
+        width: 55%;
+        height: 60%;
+        left: 0;
+        bottom: 0;
+        z-index: 0;
+        background-repeat: no-repeat;
+    }

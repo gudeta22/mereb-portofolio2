@@ -5,8 +5,26 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      typography: {
+        DEFAULT: {
+          css: {
+            h1: {
+              '::before': {
+                content: '""',
+                display: 'inline-block',
+                width: '20px',
+                height: '2px',
+                backgroundColor: '#000',
+                marginRight: '10px',
+              },
+            },
+          },
+        },
+      },
+    },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/typography')
+],
 }
 
