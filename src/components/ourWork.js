@@ -31,7 +31,7 @@ function OurWork() {
     },
   ];
   return (
-    <div className=" p-4 mt-[73rem]  sm:flex justify-center md:mt-[rem]  sm:mt-[40rem] ">
+    <div className=" p-4 mt-[73rem]  sm:flex justify-center md:mt-[45rem] lg:mt-[33rem]  sm:mt-[40rem] ">
       <div className=" sm:text-center ">
         <div className=" sm:m-auto sm:w-[500px]">
           <div className=" flex items-center sm:justify-center sm:text-center ">

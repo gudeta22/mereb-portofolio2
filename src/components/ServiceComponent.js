@@ -20,7 +20,7 @@ function ServiceComponent() {
     {
       id: 3,
       src: Urban,
-      title: "ARCHITECTURE",
+      title: "URBAN DESIGN",
       description: `Sorem spsum dolor sit amsectetr adipisclit, seddo eiusmod tempr incididunt laborea.`,
     },
   ];
