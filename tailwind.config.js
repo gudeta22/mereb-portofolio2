@@ -1,30 +1,21 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {
-      typography: {
-        DEFAULT: {
-          css: {
-            h1: {
-              '::before': {
-                content: '""',
-                display: 'inline-block',
-                width: '20px',
-                height: '2px',
-                backgroundColor: '#000',
-                marginRight: '10px',
-              },
-            },
-          },
-        },
-      },
+    fontFamily: {
+      'roboto-slab': ['Roboto Slab', 'serif'],
     },
+    screens: {
+      'sm': '640px',
+      'md': '768px',
+      'mi': '914px',
+      'lg': '1024px',
+      'xl': '1280px',
+    },
+    extend: {},
   },
-  plugins: [require('@tailwindcss/typography')
-],
-}
+  plugins: [],
+};
 

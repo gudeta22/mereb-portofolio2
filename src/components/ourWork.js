@@ -1,8 +1,8 @@
 import React from "react";
-import popular1 from "../assets/images/building1.jpg";
-import popular2 from "../assets/images/building2.jpg";
-import popular3 from "../assets/images/building3.jpg";
-import popular4 from "../assets/images/building4.jpg";
+import popular1 from "../assets/images/firstwork.jpg";
+import popular2 from "../assets/images/secondwork.jpg";
+import popular3 from "../assets/images/house3.jpg";
+import popular4 from "../assets/images/firstwork.jpg";
 function OurWork() {
   const projects = [
     {
@@ -29,9 +29,11 @@ function OurWork() {
       title: "Downside Low House",
       place: `Bole,Addis Abeba`,
     },
+    
+   
   ];
   return (
-    <div className=" p-4 mt-[73rem]  sm:flex justify-center md:mt-[45rem] lg:mt-[33rem]  sm:mt-[40rem] ">
+    <div className=" p-4 mt-[20rem]  sm:flex justify-center md:mt-[45rem] lg:mt-[25rem]  sm:mt-[40rem] ">
       <div className=" sm:text-center ">
         <div className=" sm:m-auto sm:w-[500px]">
           <div className=" flex items-center sm:justify-center sm:text-center ">
@@ -48,7 +50,7 @@ function OurWork() {
          
         </div>
 
-        <div className=" sm:m-auto sm:w-[510px] sm:grid grid-cols-2 gap-[29px] md:w-[690px] lg:w-full lg:my-14 md:my-14">
+        <div className=" sm:m-auto sm:w-[510px] sm:grid grid-cols-2 gap-[29px] md:w-[690px] lg:w-[84rem] lg:my-14 md:my-14 rounded">
           {projects.map((project, id) => (
             <div key={id} className="group mb-8">
               <img src={project.src} alt="" className="w-full h-auto" />

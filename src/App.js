@@ -6,6 +6,7 @@ import AboutPage from '../src/pages/AboutPage'
 import Projects from '../src/pages/ProjectPage'
 import Service from '../src/pages/ServicePage'
 import Navbar from './components/Navbar.js';
+// import Navbar2 from './components/Navbar2';
 
 function App() {
   return (

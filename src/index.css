@@ -27,6 +27,13 @@ background-size: cover;
 background-repeat: no-repeat; 
 
 }
+.container{
+    max-width: 1118px ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
 .overlay{
     
         position: absolute;
@@ -39,3 +46,6 @@ background-repeat: no-repeat;
         z-index: 0;
         background-repeat: no-repeat;
     }
+.animate-pulldown {
+  animation: pulldown 1s ease-in-out 1.2s forwards;
+}

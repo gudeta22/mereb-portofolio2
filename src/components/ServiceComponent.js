@@ -9,19 +9,19 @@ function ServiceComponent() {
       id: 1,
       src: Archi,
       title: "ARCHITECTURE",
-      description: `Sorem spsum dolor sit amsectetr adipisclit, seddo eiusmod tempr incididunt laborea.`,
+      description: `Architecture involves the creative and technical processes of designing spaces that fulfill the needs and desires of individuals and communities.`,
     },
     {
       id: 2,
       src: Interior,
       title: "INTERIOR DESIGN",
-      description: `Sorem spsum dolor sit amsectetr adipisclit, seddo eiusmod tempr incididunt laborea.`,
+      description: `Interior design is the art and science of enhancing the interior spaces of buildings to create functional, aesthetically pleasing, and harmonious environments.`,
     },
     {
       id: 3,
       src: Urban,
       title: "URBAN DESIGN",
-      description: `Sorem spsum dolor sit amsectetr adipisclit, seddo eiusmod tempr incididunt laborea.`,
+      description: `Urban design is the art of shaping cities, towns, and urban areas to create functional and visually appealing spaces.`,
     },
   ];
 
@@ -31,11 +31,11 @@ function ServiceComponent() {
         <div className=" md:m-auto md:flex flex-col justify-center md:w-[620px]   ">
           <div className="  flex items-center md:justify-center">
             <div className="  w-16 mb-5 h-[2px] -mt-4 mr-2  rounded-md bg-red-500 -left-16 "></div>
-            <span className=" text-lg  mb-9  md:text-xlg font-bold uppercase md:text-center inline-block relative tracking-wider">
+            <span className=" text-lg  mb-9  md:text-xlg font-bold uppercase md:text-center inline-block relative tracking-wider font-roboto-slab">
               Our services
             </span>
           </div>
-          <h1 className=" text-xl md:text-4xl uppercase font-bold  ">
+          <h1 className=" text-xl md:text-4xl uppercase font-bold font-roboto-slab ">
             WE PROVIDE BEST INTERIOR SOLUTION FOR YOU
           </h1>
         </div>

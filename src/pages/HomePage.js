@@ -14,7 +14,7 @@ function Home() {
     
     <>
       <div
-        className='bg-no-repeat h-[37rem] bg-gray-600 lg:h-[57rem] w-[100%]'
+        className='bg-no-repeat h-[37rem] bg-gray-600 lg:h-[60rem] w-[100%]'
         style={{
           backgroundImage: `url(${bgcolor})`,
           backgroundSize: 'cover',
@@ -24,14 +24,14 @@ function Home() {
         
         <div className=' relative sm:mx-14  '>
           <div className='text-white absolute mx-5 mt-24 lg:mx-[22rem] lg:mt-44  '>
-            <span className='font-light underline underline-offset-[20px]'>
+            <span className='font-light underline underline-offset-[20px] font-roboto-slab '>
               #1 ARCHITECTURE IN UNITED STATES
             </span>
 
-            <h1 className='text-2xl my-10 font-extrabold sm:text-5xl md:text-5xl lg:text-7xl'>
-              <p className='my-1'>FOCUS ON</p>DESIGN QUALITY
+            <h1 className='text-2xl my-10 font-extrabold sm:text-5xl md:text-5xl lg:text-7xl font-roboto-slab'>
+              <p className='my-1 font-roboto-slab'>FOCUS ON</p>DESIGN QUALITY
             </h1>
-            <p className='font-light py-6 -my-4 relative'>
+            <p className=' py-6 -my-4 relative font-roboto-slab font-thin'>
               We create lasting impressions through architectural design.
             </p>
             <Link to='/contact'>

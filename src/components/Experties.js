@@ -42,9 +42,9 @@ function Experties() {
          
         </div>
 
-        <div className=" sm:m-auto sm:w-[510px] sm:grid grid-cols-3 gap-[29px] md:w-[690px] lg:w-full lg:my-14 md:my-14 ">
+        <div className=" sm:m-auto sm:w-[510px] sm:grid grid-cols-3 gap-[29px] md:w-[690px] lg:w-fit lg:my-14 md:my-14 ">
           {experties.map((experties, id) => (
-            <div key={id} className="group mb-8 relative  overflow-hidden bg-contain ">
+            <div key={id} className="group mb-8   overflow-hidden">
                 {/* <img src={experties.src} alt="img" className="" /> */}
                 <div className="lg:h-[25rem]">
               <img src={experties.src} alt="img" className="w-full h-auto duration-500   object-cover transition ease-in-out hover:scale-110" />
